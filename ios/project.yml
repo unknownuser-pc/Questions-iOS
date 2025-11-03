@@ -12,5 +12,5 @@ targets:
       - ../cpp
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.example.questions
-      SWIFT_OBJC_BRIDGING_HEADER: $(PROJECT_DIR)/Questions/Questions-Bridging-Header.h
+      SWIFT_OBJC_BRIDGING_HEADER: $(PROJECT_DIR)/Questions-Bridging-Header.h
       HEADER_SEARCH_PATHS: $(PROJECT_DIR)/../cpp
