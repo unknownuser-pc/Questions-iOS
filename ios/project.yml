@@ -1,0 +1,16 @@
+name: Questions
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  Questions:
+    type: application
+    platform: iOS
+    sources:
+      - .     
+      - ../cpp    
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.example.questions
+      SWIFT_OBJC_BRIDGING_HEADER: $(PROJECT_DIR)/Questions-Bridging-Header.h
+      HEADER_SEARCH_PATHS: $(PROJECT_DIR)/../cpp
