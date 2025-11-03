@@ -1,5 +1,4 @@
-﻿#include "Logic.hpp"
+﻿#pragma once
+#include <string>
 
-const char* getMessage() {
-    return "Привет из C++ 🚀";
-}
+std::string getMessageFromCpp();

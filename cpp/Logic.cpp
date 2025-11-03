@@ -1,11 +1,5 @@
-#pragma once
+﻿#include "Logic.hpp"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-	const char* getMessage();
-
-#ifdef __cplusplus
+std::string getMessageFromCpp() {
+    return "Привет из C++";
 }
-#endif
