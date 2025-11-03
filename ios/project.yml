@@ -8,8 +8,8 @@ targets:
     type: application
     platform: iOS
     sources:
-      - Questions
-      - ../cpp
+      - .           # файлы лежат прямо в ios/
+      - ../cpp      # подключаем C++ код
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.example.questions
       SWIFT_OBJC_BRIDGING_HEADER: $(PROJECT_DIR)/Questions-Bridging-Header.h
